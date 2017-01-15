@@ -1,0 +1,25 @@
+---
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: LLVM
+IndentWidth: 4
+---
+Language: Cpp
+# Follow c++11 standard when possible.
+Standard: Cpp11
+AlwaysBreakAfterDefinitionReturnType: true
+AlwaysBreakAfterReturnType: All
+AllowAllParametersOfDeclarationOnNextLine: true
+DerivePointerAlignment: true
+PointerAlignment: Right
+BinPackParameters: false
+BinPackArguments: false
+BreakBeforeBraces: Linux
+AlignAfterOpenBracket: true
+TabWidth: 4
+ColumnLimit: 70
+
+---
+Language: JavaScript
+# Don't format .js files.
+DisableFormat: true
+...
